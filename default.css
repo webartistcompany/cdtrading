@@ -1,0 +1,332 @@
+body {
+	margin-top: 10px;
+	text-align: justify;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 13px;
+	background:url(images/elements/background.jpg);
+	background-attachment:fixed;
+	
+}
+
+h1, h2, h3 {
+	color: white;
+}
+ul, ol, li {
+	margin: 0px;
+	padding: 0px;
+	list-style: none;
+}
+
+
+a {
+	text-decoration: underline;
+	color: #DE1C1D;
+}
+
+a:hover {
+	text-decoration: none;
+	color: #DE1C1D;
+}
+#message_box {
+position: absolute;
+float:left;
+top: 0; left: 0;
+z-index: 10;
+
+padding:5px;
+padding-top:150px;
+}
+#message_box1 {
+position: absolute;
+float:left;
+top: 0; left: 0;
+z-index: 10;
+
+padding:5px;
+padding-top:210px;
+}
+
+#message_box2 {
+position: absolute;
+float:left;
+top: 0; left: 0;
+z-index: 10;
+
+padding:5px;
+padding-top:400px;
+}
+
+a#look img {opacity:1.0;filter:alpha(opacity=100);}
+a#look:hover img{opacity:0.8; filter:alpha(opacity=80);} 
+			
+#slideshow {
+    position:absolute;
+    height:350px;
+}
+#slideshow IMG {
+    position:absolute;
+    top:20;
+    left:50;
+    z-index:8;
+}
+#slideshow IMG.active {
+    z-index:10;
+}
+#slideshow IMG.last-active {
+    z-index:9;
+}
+#slideshows IMG {
+    position:absolute;
+    right:40;   
+}
+#slideshows IMG.active {
+    opacity:1.0;
+}
+#slideshows IMG.last-active {
+}
+div#menu {
+	top:0px;	  
+}
+
+#form {
+	margin-top: 0px;
+	width:160px;	
+	background:#111;
+	margin:5px;
+}
+#form li {
+	background:url(images/Elements/menu_border.gif) repeat-x top;
+	padding-top:1px; 
+	list-style:none; 
+  display:block;
+	
+}
+li#first {
+	background: black;
+}
+#form span {
+	color:#FFF;
+	font-size: 16px;
+	font-family:georgia, times new roman, times, serif;
+	display:block;
+	text-shadow: 0 0 0 #3E3A37;
+}
+#form li a {
+	display:block; 
+	text-decoration:none;
+	color:#b8b4a5;
+	padding: .7em 20px .7em 20px;
+	font-size: 16px;
+	font-family: 'trebuchet ms', Verdana,Arial,Helvetica,sans-serif;
+}
+#form li a:hover {
+	background:#272522;
+}
+/* Content */
+
+#content {
+	float: left;
+	width:450px;
+}
+
+/* Footer */
+
+#footer {
+	width: 940px;
+	height: 80px;
+	margin: 0 auto;
+	margin-top:10px;
+	padding: 0px 0px 0px 0;
+	color: #757E82;
+}
+
+#footer p {
+	margin: 0;
+	text-align: center;
+	font-size: 77%;
+}
+
+#footer a {
+	text-decoration: underline;
+	color: #757E82;
+}
+
+#footer a:hover {
+	text-decoration: none;
+}
+.footera{
+font-size:16px; 
+color:#BBB;
+}
+.navigation-menu{
+font-size:23px;
+color:#BBB;
+
+}
+.trailcamMenu {
+color:#fff;font-size:25px;text-decoration:none;
+}
+
+
+#nav-menu ul
+{
+list-style: none;
+padding: 0;
+margin: 0;
+}
+
+#nav-menu li
+{
+float: left;
+margin: 0 1px 0 0;
+}
+
+#nav-menu li a
+{
+background: url(images/elements/background-menu.jpg) #000 bottom left repeat-x;
+height: 40px;
+line-height: 40px;
+width: 117px;
+float: left;
+display: block;
+border: 0em solid #dcdce9;
+color: #000;
+text-decoration: none;
+text-align: center;
+}
+#nav-menu li a:hover
+{
+color:#e0e0e0;
+background: url(images/elements/background-menu-hover.jpg) #fff bottom left repeat-x;
+
+}
+#nav-menu li a.active
+{
+color:#e0e0e0;
+background: url(images/elements/background-menu-hover.jpg) #000 bottom left repeat-x;
+
+}
+/* Hide from IE5-Mac \*/
+#nav-menu li a
+{
+float: none;
+font-size: 20px;
+}
+/* End hide */
+
+#nav-menu
+{
+width:950px;
+padding-bottom:40px;
+}
+
+
+.menu1 {
+	width: 250px;
+	list-style: none;
+	margin: 0 0 10px 0;
+	font-size:17px;
+	background:#333;
+	padding:20px;
+	
+}
+.menu1 li {
+	clear: both;
+	margin: 0;
+	padding: 0 0 1.8em 0;
+	position: relative;
+	border-bottom: dotted 2px #999;
+}
+.menu1 strong {
+	background: #333;
+	padding: 0 10px 0 0;
+	font-weight: normal;
+	position: absolute;
+	bottom: -.3em;
+	left: 0;
+}
+.menu1 em {
+	background: #333;
+	padding: 0 0 0 5px;
+	font: 90%/100% Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	bottom: -.2em;
+	right: 0;
+}
+.menu1 sup {
+	font-size: 50%;
+	color: #666;
+	margin-left: 3px;
+}
+
+
+
+.menu2 {
+	width: 250px;
+	list-style: none;
+	margin: 0 0 10px 0;
+	font-size:17px;
+	background:#2233;
+	padding:20px;
+	
+}
+.menu2 li {
+	clear: both;
+	margin: 0;
+	padding: 0 0 1.8em 0;
+	position: relative;
+	border-bottom: dotted 2px #999;
+}
+.menu2 strong {
+	background: #222;
+	padding: 0 10px 0 0;
+	font-weight: normal;
+	position: absolute;
+	bottom: -.3em;
+	left: 0;
+}
+.menu2 em {
+	background: #222;
+	padding: 0 0 0 5px;
+	font: 90%/100% Georgia, "Times New Roman", Times, serif;
+	position: absolute;
+	bottom: -.2em;
+	right: 0;
+}
+.menu2 sup {
+	font-size: 50%;
+	color: #666;
+	margin-left: 3px;
+}
+
+
+/*  idTabs ~ Sean Catchpole  */
+
+
+/* Style for Usual tabs */
+
+.usual li { list-style:none;  }
+.usual ul a {
+  display:block;
+  width:180px;
+  font-size:35px;
+  padding:6px 10px;
+  margin:1px;
+  margin-left:0;
+  font:10px Verdana;
+  color:#FFF;
+  background:#444;
+}
+.usual ul a:hover {
+  color:#FFF;
+  background:#111;
+  }
+.usual ul a.selected {
+  margin-bottom:0;
+  color:#000;
+  background:snow;
+  border-bottom:1px solid snow;
+  cursor:default;
+  }
+
+
